@@ -6,7 +6,7 @@ import Meteors from "@/components/ui/meteors";
 import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
-import CV from "../../assets/images/Gamal_Abdelfattah.pdf"
+import CV from "../../assets/images/Gamal_Abdelfattah.pdf";
 
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
@@ -207,8 +207,16 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 |  Quik Learner  | Crafting frameworks
-                  and coding the future 💻✨
+                  JavaScript lover 🚀 | Quik Learner | Crafting frameworks and
+                  coding the future 💻✨
+                  <div>
+                    <a
+                    target="_blank"
+                      href="https://www.youtube.com/channel/UCp34p4UEXDLSftHT6QuJDiQ"
+                      className="inline-block text-blue-400 hover:text-blue-200  transition-all duration-200  font-bold">
+                      My Youtube Channel
+                    </a>
+                  </div>
                 </p>
               </div>
 
@@ -230,7 +238,7 @@ const profile = {
                 <a
                   href={CV}
                   target="_blank"
-                  rel="noopener noreferrer" // To Safe From Attacks Or  
+                  rel="noopener noreferrer" // To Safe From Attacks Or
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]">
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
                     <span className="relative flex items-center justify-center gap-2 text-gray-300 font-medium group-hover:text-white">
