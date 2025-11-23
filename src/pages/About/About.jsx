@@ -22,7 +22,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="relative space-y-4">
+            <div className="relative space-y-4 md:mt-20">
               <p className="text-white">
                 Hello! I'm Gamal Abdel Fattah, a passionate{" "}
                 <span className="font-bold text-white"> Front-End </span>
