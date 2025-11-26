@@ -59,7 +59,6 @@ export default function App() {
       ) : (
         // Router Mode: Use routes for navigation
         <Routes>
-          `
           <Route path="/" element={<Hero />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/experience" element={<Experience />} />

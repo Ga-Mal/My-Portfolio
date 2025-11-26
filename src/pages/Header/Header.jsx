@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  FaHome,
-  FaLaptopCode,
-  FaUser,
-  FaBriefcase,
-  FaGraduationCap,
-  FaCode,
-  FaEnvelope,
-  FaBars,
-} from "react-icons/fa";
+import { FaHome, FaLaptopCode, FaUser, FaBriefcase, FaGraduationCap, FaCode, FaEnvelope, FaBars} from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
 
 export default function Header() {
