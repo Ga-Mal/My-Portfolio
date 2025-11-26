@@ -6,14 +6,26 @@ import Hospitalimg from "../../assets/images/projects/Hospital.jpg";
 import Resturantimg from "../../assets/images/projects/Resturant.jpg";
 import portfolioimg from "../../assets/images/projects/Portfolio.jpg";
 import Acadimyimg from "../../assets/images/projects/Learning Acadimy.jpg";
+import partyvenue from "../../assets/images/projects/partyvenue.jpg";
 
 const projects = [
+  {
+    title: "Party Venue",
+    description: `Party Venue is a smart web platform designed to help users discover wedding halls and photography locations within a specific area, allowing them to view full details of each venue and easily send booking requests.
+    The project was developed using modern web technologies to ensure a smooth and fast user experience, with a strong focus on performance, data organization, and easy navigation. The interface is fully responsive and designed with a modern UI to work perfectly across all devices.
+    The platform uses Supabase for dynamic data management and integrates image optimization before upload to improve loading speed and overall performance. Advanced libraries were also used to enhance user experience, including interactive alerts, notifications, and smooth routing`,
+    src: portfolioimg,
+    link: portfolioimg,
+    color: "#fff",
+    githubLink: "https://github.com/Ga-Mal/Hall-Project-First-Version",
+    liveLink: "https://partyvenue.netlify.app/",
+  },
   {
     title: "Old Portfolio",
     description:
       "This portfolio is very old for me. At that time, I had just started learning front-end development, then I stopped, and later resumed. After reviewing what I had forgotten, I created this portfolio to motivate myself—it is very dear to me.",
-    src: portfolioimg,
-    link: portfolioimg,
+    src: partyvenue,
+    link: partyvenue,
     color: "#fff",
     githubLink: "https://ga-mal.netlify.app/",
     liveLink: "https://ga-mal.netlify.app/",
