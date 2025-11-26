@@ -11,11 +11,10 @@ import partyvenue from "../../assets/images/projects/partyvenue.jpg";
 const projects = [
   {
     title: "Party Venue",
-    description: `Party Venue is a smart web platform designed to help users discover wedding halls and photography locations within a specific area, allowing them to view full details of each venue and easily send booking requests.
-    The project was developed using modern web technologies to ensure a smooth and fast user experience, with a strong focus on performance, data organization, and easy navigation. The interface is fully responsive and designed with a modern UI to work perfectly across all devices.
-    The platform uses Supabase for dynamic data management and integrates image optimization before upload to improve loading speed and overall performance. Advanced libraries were also used to enhance user experience, including interactive alerts, notifications, and smooth routing`,
-    src: portfolioimg,
-    link: portfolioimg,
+    description: `Party Venue is a web platform that helps users find wedding halls and photography locations in a specific area, view detailed information, and send booking requests easily.
+      It is built using modern web technologies to ensure fast performance, smooth navigation, and a responsive user interface. The project also uses Supabase for data management and image optimization for better loading speed.`,
+    src: partyvenue,
+    link: partyvenue,
     color: "#fff",
     githubLink: "https://github.com/Ga-Mal/Hall-Project-First-Version",
     liveLink: "https://partyvenue.netlify.app/",
@@ -24,8 +23,8 @@ const projects = [
     title: "Old Portfolio",
     description:
       "This portfolio is very old for me. At that time, I had just started learning front-end development, then I stopped, and later resumed. After reviewing what I had forgotten, I created this portfolio to motivate myself—it is very dear to me.",
-    src: partyvenue,
-    link: partyvenue,
+    src: portfolioimg,
+    link: portfolioimg,
     color: "#fff",
     githubLink: "https://ga-mal.netlify.app/",
     liveLink: "https://ga-mal.netlify.app/",
