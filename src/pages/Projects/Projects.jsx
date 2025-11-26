@@ -57,7 +57,7 @@ const projects = [
     src: Acadimyimg,
     link: Acadimyimg,
     color: "#ed649e",
-    githubLink: "https://lighthearted-melba-8b2264.netlify.app/",
+    githubLink: "https://github.com/Ga-Mal/Hall-Project-First-Version",
     liveLink: "https://lighthearted-melba-8b2264.netlify.app/",
   },
 ];
