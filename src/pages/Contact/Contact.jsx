@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Send, Phone, MapPin, Mail } from "lucide-react";
+import { useState } from "react";
+import { Send, MapPin, Mail } from "lucide-react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -52,13 +52,13 @@ export default function Contact() {
     }
 
     const form = new FormData();
-    form.append("access_key", "f3993f35-5c98-497d-930c-11acae64271b"); // ✅ Web3Forms Key
+    form.append("access_key", "f3993f35-5c98-497d-930c-11acae64271b"); // Web3Forms Key
     form.append("name", formData.name);
     form.append("from_name", formData.name);
     form.append("email", formData.email);
     form.append("from_email", formData.email);
     form.append("replyto", formData.email);
-    form.append("to_email", "gamalabdelfattah098@gmail.com"); // ✅ غيّر الإيميل ده بإيميلك الحقيقي
+    form.append("to_email", "gamalabdelfattah098@gmail.com");
     form.append("subject", formData.subject);
     form.append("message", formData.message);
 

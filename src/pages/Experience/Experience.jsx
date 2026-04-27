@@ -1,4 +1,3 @@
-import React from "react";
 import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
 
 const ExperienceCard = ({
@@ -73,9 +72,17 @@ const ExperienceSection = () => {
       icon: Code2,
       title: "Front-End Instructure",
       company: "NextStep Acadimy",
-      period: "2025",
+      period: "2025 [March - Jul]",
       description:
         "Taught a full course at NextStep Academy, sharing knowledge and practical skills in web development.",
+    },
+    {
+      icon: Code2,
+      title: "Front-End Instructure",
+      company: "Mobadarat Shababna",
+      period: "2026",
+      description:
+        "As a lecturer in the Mobadarat Shababna , I share my experience and knowledge to trian students in web development.",
     },
   ];
 

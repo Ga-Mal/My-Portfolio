@@ -42,8 +42,9 @@ const GridBackground = () => {
 export default function Hero() {
   const words = [
     "Front-End Developer ",
-    "Content Creator",
-    "Student At MIS (OBOUR INSTITUTE)",
+    "Instructor",
+    "Problem Solver",
+    "SAAS",
   ];
 
   const [code] = useState(`
@@ -51,9 +52,10 @@ const profile = {
     name: 'Gamal Abdel Fattah',
     title: 'Front-End Developer',
     skills: [
-        'React','Redux','Redux-Toolkit','React Router',
-        'Tailwind','Bootstrap' ,'JS','Git', 'Github'
-        'TypeScript (in progress)','Next(in progress)'
+        'React','Redux','Redux-Toolkit','React Router', Context , Zustand 
+        'TailwindCSS','Bootstrap' ,'JS' , 'TS' , 'Version Control [Git & Github]',
+        'NextJS', 'AI Tools [Cusror + Antigravity + Gemini + Chatgpt (thinking)]',
+        'NodeJS' , 'MongoDS' , ORM [Primsa] 
     ],
     hardWorker: true,
     quickLearner: true,
@@ -64,7 +66,7 @@ const profile = {
             this.hardWorker &&
             this.problemSolver &&
             this.skills.length >= 8 &&
-            this.yearsOfExperience >= Fresh 🙂
+            this.yearsOfExperience >= Junior
         );
     }
 };
@@ -207,14 +209,14 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | Quik Learner | Crafting frameworks and
-                  coding the future 💻✨
+                  Helper | Quik Learner | Crafting frameworks and
+                  coding the future 💻 | Problem Solver
                   <div>
                     <a
                     target="_blank"
-                      href="https://www.youtube.com/channel/UCp34p4UEXDLSftHT6QuJDiQ"
+                      href="https://www.linkedin.com/in/ga-mal-34781129b?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                       className="inline-block text-blue-400 hover:text-blue-200  transition-all duration-200  font-bold">
-                      My Youtube Channel
+                      My Linkedin Profile 
                     </a>
                   </div>
                 </p>
@@ -228,7 +230,7 @@ const profile = {
                   className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-blue-500 to-teal-400 p-0.5 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]">
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-blue-500 group-hover:to-teal-400">
                     <span className="relative flex items-center justify-center gap-2 text-white font-medium">
-                      <span>Learn More</span>
+                      <span>Github</span>
                       <i className="fas fa-arrow-right transform transition-all duration-300 group-hover:translate-x-1"></i>
                     </span>
                   </span>

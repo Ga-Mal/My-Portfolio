@@ -4,8 +4,8 @@ import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import Hospitalimg from "../../assets/images/projects/Hospital.jpg";
 import Resturantimg from "../../assets/images/projects/Resturant.jpg";
-import portfolioimg from "../../assets/images/projects/Portfolio.jpg";
-import Acadimyimg from "../../assets/images/projects/Learning Acadimy.jpg";
+import GMSImg from "../../assets/images/projects/GMSHeader.png";
+import PinkifyImg from "../../assets/images/projects/Pinkify.png";
 import partyvenue from "../../assets/images/projects/partyvenue.jpg";
 
 const projects = [
@@ -20,14 +20,14 @@ const projects = [
     liveLink: "https://partyvenue.netlify.app/",
   },
   {
-    title: "Old Portfolio",
+    title: "GMS | Easy Shopping ",
     description:
-      "This portfolio is very old for me. At that time, I had just started learning front-end development, then I stopped, and later resumed. After reviewing what I had forgotten, I created this portfolio to motivate myself—it is very dear to me.",
-    src: portfolioimg,
-    link: portfolioimg,
+      "GMS Is a High-performance , modern E-commerce platform built with React 19 and vite . The PlatForm Provides a Seamless Shopping Experience With Real-time cart updates , secure authentication , and a powerful administrative dashboard for business management.",
+    src: GMSImg,
+    link: GMSImg,
     color: "#fff",
-    githubLink: "https://ga-mal.netlify.app/",
-    liveLink: "https://ga-mal.netlify.app/",
+    githubLink: "https://github.com/Ga-Mal/E-commerce-EndVersion",
+    liveLink: "https://double-gm.vercel.app/",
   },
   {
     title: "Hospital",
@@ -50,14 +50,14 @@ const projects = [
     liveLink: "https://resturantgm.netlify.app/",
   },
   {
-    title: "Learning Acadimy",
+    title: "Pinkify | Fashion Redefined",
     description:
-      "This website was a practice project for learning Tailwind, and like my previous projects, it was created purely from my imagination.",
-    src: Acadimyimg,
-    link: Acadimyimg,
+      "Pinkify is a modern high-performance fashion e-commerce application built to deliver a premium shopping experience . It features a sleek responsive design and a robust admin management system.",
+    src: PinkifyImg,
+    link: PinkifyImg,
     color: "#ed649e",
-    githubLink: "https://github.com/Ga-Mal/Hall-Project-First-Version",
-    liveLink: "https://lighthearted-melba-8b2264.netlify.app/",
+    githubLink: "https://github.com/Ga-Mal/Pinkify-First-Version",
+    liveLink: "https://pinkify1.netlify.app/",
   },
 ];
 

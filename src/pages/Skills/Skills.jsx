@@ -1,15 +1,12 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe"; // Icons Flyting Component
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
-import {FaReact,FaNodeJs,FaPython,FaDocker,FaGitAlt,FaLinux,FaFigma,FaAws} from "react-icons/fa";
+import { Code2, Cpu, Database, Layout} from "lucide-react";
+import {FaFigma, FaNodeJs, FaReact} from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiPostgresql, SiMongodb, SiGraphql, SiJest, SiWebpack, SiRedux, SiFirebase, SiVercel, SiVite} from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiWebpack, SiRedux, SiVercel, SiVite, SiMongodb} from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
-import { MdAnimation } from "react-icons/md";
-import { FcWorkflow } from "react-icons/fc";
 
 const SkillCard = ({ icon: Icon, title, skills, color }) => ( 
   <Card className="group relative overflow-hidden bg-gray-900/80 border-gray-700 hover:scale-[1.02] transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/20">
@@ -75,58 +72,58 @@ const SkillsSection = () => {
       ],
     },
     // Backend S
-    // {
-    //   icon: Database,
-    //   title: "Backend Development",
-    //   color: "text-green-400",
-    //   skills: [
-    //     {
-    //       name: "Node.js",
-    //       icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
-    //     },
-    //     {
-    //       name: "Python",
-    //       icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
-    //     },
-    //     {
-    //       name: "PostgreSQL",
-    //       icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
-    //     },
-    //     {
-    //       name: "MongoDB",
-    //       icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
-    //     },
-    //     {
-    //       name: "REST APIs",
-    //       icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
-    //     },
-    //     {
-    //       name: "GraphQL",
-    //       icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
-    //     },
-    //   ],
-    // },
+    {
+      icon: Database,
+      title: "Backend Development",
+      color: "text-green-400",
+      skills: [
+        {
+          name: "Node.js",
+          icon: <FaNodeJs className="w-4 h-4 text-[#339933]" />,
+        },
+        // {
+        //   name: "Python",
+        //   icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+        // },
+        // {
+        //   name: "PostgreSQL",
+        //   icon: <SiPostgresql className="w-4 h-4 text-[#336791]" />,
+        // },
+        {
+          name: "MongoDB",
+          icon: <SiMongodb className="w-4 h-4 text-[#47A248]" />,
+        },
+        {
+          name: "REST APIs",
+          icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
+        },
+        // {
+        //   name: "GraphQL",
+        //   icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
+        // },
+      ],
+    },
     // UI UX  Section
-    // {
-    //   icon: Layout,
-    //   title: "UI/UX Design",
-    //   color: "text-purple-400",
-    //   skills: [
-    //     { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
-    //     {
-    //       name: "Responsive Design",
-    //       icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
-    //     },
-    //     {
-    //       name: "Wireframing",
-    //       icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
-    //     },
-    //     {
-    //       name: "Prototyping",
-    //       icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
-    //     },
-    //   ],
-    // },
+    {
+      icon: Layout,
+      title: "UI/UX Design",
+      color: "text-purple-400",
+      skills: [
+        { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
+        {
+          name: "Responsive Design",
+          icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
+        },
+        // {
+        //   name: "Wireframing",
+        //   icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
+        // },
+        // {
+        //   name: "Prototyping",
+        //   icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
+        // },
+      ],
+    },
     // Cloud Section
     // {
     //   icon: Cloud,

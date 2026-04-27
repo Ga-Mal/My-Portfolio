@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./assets/css/index.css";
 import Experience from "./pages/Experience/Experience";
 import Contact from "./pages/Contact/Contact";
@@ -23,7 +23,7 @@ export default function App() {
         <title>Gamal</title>
         <meta
           name="description"
-          content="Portfolio of Gamal, a Frontend Developer specializing in React and JavaScript."
+          content="Portfolio of Gamal, a Frontend Developer"
         />
         <meta name="keywords" content="React, JavaScript, Portfolio, Frontend" />
         <meta name="author" content="Gamal" />
