@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import Hospitalimg from "../../assets/images/projects/Hospital.jpg";
 import Resturantimg from "../../assets/images/projects/Resturant.jpg";
 import GMSImg from "../../assets/images/projects/GMSHeader.png";
-import PinkifyImg from "../../assets/images/projects/Pinkify.png";
+// import PinkifyImg from "../../assets/images/projects/Pinkify.png";
 import partyvenue from "../../assets/images/projects/partyvenue.jpg";
 
 const projects = [
@@ -49,16 +49,16 @@ const projects = [
     githubLink: "https://resturantgm.netlify.app/",
     liveLink: "https://resturantgm.netlify.app/",
   },
-  {
-    title: "Pinkify | Fashion Redefined",
-    description:
-      "Pinkify is a modern high-performance fashion e-commerce application built to deliver a premium shopping experience . It features a sleek responsive design and a robust admin management system.",
-    src: PinkifyImg,
-    link: PinkifyImg,
-    color: "#ed649e",
-    githubLink: "https://github.com/Ga-Mal/Pinkify-First-Version",
-    liveLink: "https://pinkify1.netlify.app/",
-  },
+  // {
+  //   title: "Pinkify | Fashion Redefined",
+  //   description:
+  //     "Pinkify is a modern high-performance fashion e-commerce application built to deliver a premium shopping experience . It features a sleek responsive design and a robust admin management system.",
+  //   src: PinkifyImg,
+  //   link: PinkifyImg,
+  //   color: "#ed649e",
+  //   githubLink: "https://github.com/Ga-Mal/Pinkify-First-Version",
+  //   liveLink: "https://pinkify1.netlify.app/",
+  // },
 ];
 
 export default function Projects() {
